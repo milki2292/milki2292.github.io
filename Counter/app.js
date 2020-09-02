@@ -5,7 +5,7 @@ const counter = document.querySelector(".counter");
 plusBtn.addEventListener("click", add);
 minusBtn.addEventListener("click", sub);
 
-counter.innerText = localStorage.getItem("number");
+
 
 let val=0;
 
