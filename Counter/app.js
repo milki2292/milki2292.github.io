@@ -8,7 +8,7 @@ minusBtn.addEventListener("click", sub);
 
 
 let val=0;
-
+counter.innerText = val;
 function add() {
   counter.classList.add("down");
   val++;

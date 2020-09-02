@@ -76,8 +76,8 @@ body .counterContainer .numContainer .counter {
   height: 10%;
   color: #d89402;
   font-size: 40px;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 button {
