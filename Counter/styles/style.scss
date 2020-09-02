@@ -10,8 +10,8 @@ body {
   background: rgb(251, 205, 63);
   background: radial-gradient(
     circle,
-    rgba(251, 205, 63, 1) 0%,
-    rgba(0, 0, 0, 1) 100%
+    rgb(251, 185, 63) 0%,
+    rgb(216, 148, 2) 100%
   );
   @include flexCenter();
   .counterContainer {
@@ -25,6 +25,7 @@ body {
       height: 10%;
       background: rgb(61, 61, 61);
       border-radius: 25%;
+      box-shadow: 5px 5px 10px ;
       .counter {
         @include flexCenter();
         width: 10%;
@@ -38,6 +39,7 @@ body {
 }
 
 button {
+    text-shadow: 5px 5px 10px rgb(37, 37, 37);
   background: none;
   border: none;
   cursor: pointer;

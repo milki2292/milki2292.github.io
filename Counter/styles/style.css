@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap");
 body {
   background: #fbcd3f;
-  background: radial-gradient(circle, #fbcd3f 0%, black 100%);
+  background: radial-gradient(circle, #fbb93f 0%, #d89402 100%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -54,6 +54,8 @@ body .counterContainer .numContainer {
   height: 10%;
   background: #3d3d3d;
   border-radius: 25%;
+  -webkit-box-shadow: 5px 5px 10px;
+          box-shadow: 5px 5px 10px;
 }
 
 body .counterContainer .numContainer .counter {
@@ -79,6 +81,7 @@ body .counterContainer .numContainer .counter {
 }
 
 button {
+  text-shadow: 5px 5px 10px #252525;
   background: none;
   border: none;
   cursor: pointer;
