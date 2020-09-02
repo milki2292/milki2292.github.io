@@ -7,12 +7,18 @@
 }
 
 body {
+  background: rgb(251, 205, 63);
+  background: radial-gradient(
+    circle,
+    rgba(251, 205, 63, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
   @include flexCenter();
   .counterContainer {
     font-family: "Dosis", sans-serif;
     @include flexCenter();
-    width: 90vh;
-    height: 90vh;
+    width: 99vh;
+    height: 98vh;
     .numContainer {
       @include flexCenter();
       width: 10%;
@@ -26,7 +32,6 @@ body {
         color: rgb(216, 148, 2);
         font-size: 40px;
         transition: all 0.5s ease;
-        
       }
     }
   }

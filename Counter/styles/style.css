@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap");
 body {
+  background: #fbcd3f;
+  background: radial-gradient(circle, #fbcd3f 0%, black 100%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,8 +32,8 @@ body .counterContainer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 90vh;
-  height: 90vh;
+  width: 99vh;
+  height: 98vh;
 }
 
 body .counterContainer .numContainer {
