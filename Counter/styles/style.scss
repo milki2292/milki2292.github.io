@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap");
+@mixin flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+body {
+  @include flexCenter();
+  .counterContainer {
+    font-family: "Dosis", sans-serif;
+    @include flexCenter();
+    width: 90vh;
+    height: 90vh;
+    .numContainer {
+      @include flexCenter();
+      width: 10%;
+      height: 10%;
+      background: rgb(61, 61, 61);
+      border-radius: 25%;
+      .counter {
+        @include flexCenter();
+        width: 10%;
+        height: 10%;
+        color: rgb(216, 148, 2);
+        font-size: 40px;
+        transition: all 0.5s ease;
+        
+      }
+    }
+  }
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 15px 10px;
+  font-size: 30px;
+  color: rgb(61, 61, 61);
+  transition: all 0.2s ease;
+  outline: none;
+}
+button:hover {
+  color: rgb(216, 148, 2);
+}
+
+.down {
+  opacity: 0;
+}
